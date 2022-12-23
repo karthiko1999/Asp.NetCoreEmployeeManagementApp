@@ -1,0 +1,614 @@
+2022-11-25 18:05:16.6069|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting starting
+2022-11-25 18:05:16.6386|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2022-11-25 18:05:16.6424|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Error/Error.cshtml'.
+2022-11-25 18:05:16.6424|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Error/NotFound.cshtml'.
+2022-11-25 18:05:16.6424|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Home/404EmpNotFound.cshtml'.
+2022-11-25 18:05:16.6424|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Home/Create.cshtml'.
+2022-11-25 18:05:16.6424|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Home/Details.cshtml'.
+2022-11-25 18:05:16.6424|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Home/Edit.cshtml'.
+2022-11-25 18:05:16.6424|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2022-11-25 18:05:16.6424|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2022-11-25 18:05:16.6424|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2022-11-25 18:05:16.6424|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2022-11-25 18:05:16.6424|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2022-11-25 18:05:16.6477|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using '/Users/ka20364917/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2022-11-25 18:05:16.6560|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file '/Users/ka20364917/.aspnet/DataProtection-Keys/key-1eafa605-9641-47e1-bffa-83e8d8197620.xml'.
+2022-11-25 18:05:16.6583|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {1eafa605-9641-47e1-bffa-83e8d8197620}.
+2022-11-25 18:05:16.6611|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {1eafa605-9641-47e1-bffa-83e8d8197620} with expiration date 2022-12-27 06:15:12Z as default key.
+2022-11-25 18:05:16.6625|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-25 18:05:16.6663|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory|Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2022-11-25 18:05:16.6663|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory|Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2022-11-25 18:05:16.6687|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {1eafa605-9641-47e1-bffa-83e8d8197620} as the default key.
+2022-11-25 18:05:16.6687|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {1eafa605-9641-47e1-bffa-83e8d8197620} was loaded during application startup.
+2022-11-25 18:05:16.7352|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: DD99C7763F01E342AE74DBF4258DC0E1665E3F68)
+2022-11-25 18:05:16.7436|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting started
+2022-11-25 18:05:16.7436|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly EmployeeManagementApp
+2022-11-25 18:05:27.0711|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMMES63VLTCV" accepted.
+2022-11-25 18:05:27.0723|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMMES63VLTCV" started.
+2022-11-25 18:05:27.1206|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMMES63VLTCV established using the following protocol: Tls12
+2022-11-25 18:05:27.1480|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7203/ - -
+2022-11-25 18:05:27.1480|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2022-11-25 18:05:27.1480|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-11-25 18:05:27.1507|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path / does not match a supported file type
+2022-11-25 18:05:27.1829|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template ''
+2022-11-25 18:05:27.1945|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller EmployeeManagementApp.Controllers.HomeController (EmployeeManagementApp).
+2022-11-25 18:05:27.1945|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2022-11-25 18:05:27.1945|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2022-11-25 18:05:27.1945|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+2022-11-25 18:05:27.1945|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2022-11-25 18:05:27.1945|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2022-11-25 18:05:27.1954|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.1954|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.1954|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller EmployeeManagementApp.Controllers.HomeController (EmployeeManagementApp)
+2022-11-25 18:05:27.3491|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-25 18:05:27.5957|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 6.0.11 initialized 'AppDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: MaxPoolSize=1024 ServerVersion 8.0.29-mysql 
+2022-11-25 18:05:27.5973|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller EmployeeManagementApp.Controllers.HomeController (EmployeeManagementApp)
+2022-11-25 18:05:27.5973|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-11-25 18:05:27.5973|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:27.5973|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:27.5988|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method EmployeeManagementApp.Controllers.HomeController.Index (EmployeeManagementApp) - Validation state: Valid
+2022-11-25 18:05:27.5991|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMMES63VLTD0" accepted.
+2022-11-25 18:05:27.5991|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMMES63VLTD0" started.
+2022-11-25 18:05:27.6107|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Employee>()'
+2022-11-25 18:05:27.6320|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMMES63VLTD0 established using the following protocol: Tls12
+2022-11-25 18:05:27.6809|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Employee>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Employee.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.Department (Department?), 1], [Property: Employee.Email (string), 2], [Property: Employee.Name (string), 3], [Property: Employee.PhotoPath (string), 4] }
+        SELECT e.Id, e.Department, e.Email, e.Name, e.PhotoPath
+        FROM Employees AS e), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Employee>, 
+    EmployeeManagementApp.Data.AppDbContext, 
+    False, 
+    False, 
+    True
+)'
+2022-11-25 18:05:27.6930|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2022-11-25 18:05:27.6953|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (1ms).
+2022-11-25 18:05:27.6965|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'EmployeeDB1.0' on server 'localhost'.
+2022-11-25 18:05:27.7163|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'EmployeeDB1.0' on server 'localhost'.
+2022-11-25 18:05:27.7190|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`Department`, `e`.`Email`, `e`.`Name`, `e`.`PhotoPath`
+FROM `Employees` AS `e`
+2022-11-25 18:05:27.7380|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`Department`, `e`.`Email`, `e`.`Name`, `e`.`PhotoPath`
+FROM `Employees` AS `e`
+2022-11-25 18:05:27.7444|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-25 18:05:27.7550|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-25 18:05:27.7550|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-25 18:05:27.7550|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-25 18:05:27.7550|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-25 18:05:27.7550|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-25 18:05:27.7550|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-25 18:05:27.7608|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2022-11-25 18:05:27.7615|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'EmployeeDB1.0' on server 'localhost'.
+2022-11-25 18:05:27.7615|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'EmployeeDB1.0' on server 'localhost'.
+2022-11-25 18:05:27.7641|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method EmployeeManagementApp.Controllers.HomeController.Index (EmployeeManagementApp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 164.2578ms.
+2022-11-25 18:05:27.7641|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:27.7641|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:27.7641|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-11-25 18:05:27.7641|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.7641|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.7641|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2022-11-25 18:05:27.7651|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view 'Index' in controller 'Home'.
+2022-11-25 18:05:27.7651|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/Home/Index.cshtml'.
+2022-11-25 18:05:27.7651|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/Views/Home/_ViewStart.cshtml'.
+2022-11-25 18:05:27.7651|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/_ViewStart.cshtml'.
+2022-11-25 18:05:27.7659|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/_ViewStart.cshtml'.
+2022-11-25 18:05:27.7659|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2022-11-25 18:05:27.7674|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Index.cshtml' was found in 1.576ms.
+2022-11-25 18:05:27.8120|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view '_Layout' in controller 'Home'.
+2022-11-25 18:05:27.8120|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/Views/Home/_Layout.cshtml'.
+2022-11-25 18:05:27.8120|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/Shared/_Layout.cshtml'.
+2022-11-25 18:05:27.8204|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 55.5201ms.
+2022-11-25 18:05:27.8204|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2022-11-25 18:05:27.8204|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.8204|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.8204|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.8204|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.8204|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action EmployeeManagementApp.Controllers.HomeController.Index (EmployeeManagementApp) in 625.9162ms
+2022-11-25 18:05:27.8204|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMMES63VLTCV" completed keep alive response.
+2022-11-25 18:05:27.8245|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7203/ - - - 200 - text/html;+charset=utf-8 677.5791ms
+2022-11-25 18:05:27.8386|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7203/EmployeeManagementApp.styles.css - -
+2022-11-25 18:05:27.8386|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-11-25 18:05:27.8386|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /EmployeeManagementApp.styles.css does not match an existing file
+2022-11-25 18:05:27.8391|DEBUG|Microsoft.AspNetCore.Routing.RouteBase|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'
+2022-11-25 18:05:27.8391|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7203/images/91c32f31-d266-496c-8528-86d20aa1e37e_person4.jpg?v=bMYG_7oYF8ZkRnPpTevg_T_bXBXWdIHA8IOCOBHb7L4 - -
+2022-11-25 18:05:27.8391|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-11-25 18:05:27.8405|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ActionSelector|No actions matched the current request. Route values: controller=EmployeeManagementApp.styles.css, action=Index
+2022-11-25 18:05:27.8405|DEBUG|Microsoft.AspNetCore.Mvc.Routing.MvcRouteHandler|No actions matched the current request. Route values: controller=EmployeeManagementApp.styles.css, action=Index
+2022-11-25 18:05:27.8409|DEBUG|Microsoft.AspNetCore.Builder.RouterMiddleware|Request did not match any routes
+2022-11-25 18:05:27.8419|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Error/404 does not match a supported file type
+2022-11-25 18:05:27.8419|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Error/{statuscode}'
+2022-11-25 18:05:27.8442|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty.
+2022-11-25 18:05:27.8442|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /images/91c32f31-d266-496c-8528-86d20aa1e37e_person4.jpg was not modified
+2022-11-25 18:05:27.8461|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Handled. Status code: 304 File: /images/91c32f31-d266-496c-8528-86d20aa1e37e_person4.jpg
+2022-11-25 18:05:27.8461|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMMES63VLTD0" completed keep alive response.
+2022-11-25 18:05:27.8461|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7203/images/91c32f31-d266-496c-8528-86d20aa1e37e_person4.jpg?v=bMYG_7oYF8ZkRnPpTevg_T_bXBXWdIHA8IOCOBHb7L4 - - - 304 - image/jpeg 6.7109ms
+2022-11-25 18:05:27.8491|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "HttpNonSuccessStatusCodeHandler", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult HttpNonSuccessStatusCodeHandler(Int32) on controller EmployeeManagementApp.Controllers.ErrorController (EmployeeManagementApp).
+2022-11-25 18:05:27.8491|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2022-11-25 18:05:27.8491|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2022-11-25 18:05:27.8491|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+2022-11-25 18:05:27.8491|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2022-11-25 18:05:27.8491|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2022-11-25 18:05:27.8491|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.8491|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.8491|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller EmployeeManagementApp.Controllers.ErrorController (EmployeeManagementApp)
+2022-11-25 18:05:27.8491|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller EmployeeManagementApp.Controllers.ErrorController (EmployeeManagementApp)
+2022-11-25 18:05:27.8506|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'statuscode' of type 'System.Int32' ...
+2022-11-25 18:05:27.8513|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'statuscode' of type 'System.Int32' using the name 'statuscode' in request data ...
+2022-11-25 18:05:27.8513|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'statuscode' of type 'System.Int32'.
+2022-11-25 18:05:27.8513|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'statuscode' of type 'System.Int32'.
+2022-11-25 18:05:27.8513|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'statuscode' of type 'System.Int32' ...
+2022-11-25 18:05:27.8520|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'statuscode' of type 'System.Int32'.
+2022-11-25 18:05:27.8520|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-11-25 18:05:27.8520|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:27.8520|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:27.8520|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method EmployeeManagementApp.Controllers.ErrorController.HttpNonSuccessStatusCodeHandler (EmployeeManagementApp) - Validation state: Valid
+2022-11-25 18:05:27.8520|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method EmployeeManagementApp.Controllers.ErrorController.HttpNonSuccessStatusCodeHandler (EmployeeManagementApp) with arguments (404)
+2022-11-25 18:05:27.8549|WARN|EmployeeManagementApp.Controllers.ErrorController|404 Error occured in Path : /EmployeeManagementApp.styles.css & query string : 
+2022-11-25 18:05:27.8549|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method EmployeeManagementApp.Controllers.ErrorController.HttpNonSuccessStatusCodeHandler (EmployeeManagementApp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.3965ms.
+2022-11-25 18:05:27.8549|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:27.8549|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:27.8549|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-11-25 18:05:27.8549|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.8549|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.8549|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2022-11-25 18:05:27.8549|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view 'NotFound' in controller 'Error'.
+2022-11-25 18:05:27.8549|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/Error/NotFound.cshtml'.
+2022-11-25 18:05:27.8549|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/Views/Error/_ViewStart.cshtml'.
+2022-11-25 18:05:27.8549|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/_ViewStart.cshtml'.
+2022-11-25 18:05:27.8549|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/_ViewStart.cshtml'.
+2022-11-25 18:05:27.8549|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view NotFound.
+2022-11-25 18:05:27.8549|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Error/NotFound.cshtml' was found in 0.3312ms.
+2022-11-25 18:05:27.8637|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view '_Layout' in controller 'Error'.
+2022-11-25 18:05:27.8637|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/Views/Error/_Layout.cshtml'.
+2022-11-25 18:05:27.8637|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/Shared/_Layout.cshtml'.
+2022-11-25 18:05:27.8644|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view NotFound executed in 9.2542ms.
+2022-11-25 18:05:27.8644|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2022-11-25 18:05:27.8644|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.8644|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.8644|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.8644|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.8644|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action EmployeeManagementApp.Controllers.ErrorController.HttpNonSuccessStatusCodeHandler (EmployeeManagementApp) in 15.2384ms
+2022-11-25 18:05:27.8644|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMMES63VLTCV" completed keep alive response.
+2022-11-25 18:05:27.8644|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7203/EmployeeManagementApp.styles.css - - - 404 - text/html;+charset=utf-8 26.1154ms
+2022-11-25 18:05:27.8650|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7203/EmployeeManagementApp.styles.css - -
+2022-11-25 18:05:27.8650|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-11-25 18:05:27.8650|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /EmployeeManagementApp.styles.css does not match an existing file
+2022-11-25 18:05:27.8650|DEBUG|Microsoft.AspNetCore.Routing.RouteBase|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'
+2022-11-25 18:05:27.8650|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ActionSelector|No actions matched the current request. Route values: controller=EmployeeManagementApp.styles.css, action=Index
+2022-11-25 18:05:27.8650|DEBUG|Microsoft.AspNetCore.Mvc.Routing.MvcRouteHandler|No actions matched the current request. Route values: controller=EmployeeManagementApp.styles.css, action=Index
+2022-11-25 18:05:27.8650|DEBUG|Microsoft.AspNetCore.Builder.RouterMiddleware|Request did not match any routes
+2022-11-25 18:05:27.8650|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Error/404 does not match a supported file type
+2022-11-25 18:05:27.8650|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Error/{statuscode}'
+2022-11-25 18:05:27.8650|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "HttpNonSuccessStatusCodeHandler", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult HttpNonSuccessStatusCodeHandler(Int32) on controller EmployeeManagementApp.Controllers.ErrorController (EmployeeManagementApp).
+2022-11-25 18:05:27.8650|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2022-11-25 18:05:27.8650|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2022-11-25 18:05:27.8650|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+2022-11-25 18:05:27.8650|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2022-11-25 18:05:27.8650|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2022-11-25 18:05:27.8650|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.8650|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.8650|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller EmployeeManagementApp.Controllers.ErrorController (EmployeeManagementApp)
+2022-11-25 18:05:27.8650|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller EmployeeManagementApp.Controllers.ErrorController (EmployeeManagementApp)
+2022-11-25 18:05:27.8650|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'statuscode' of type 'System.Int32' ...
+2022-11-25 18:05:27.8650|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'statuscode' of type 'System.Int32' using the name 'statuscode' in request data ...
+2022-11-25 18:05:27.8650|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'statuscode' of type 'System.Int32'.
+2022-11-25 18:05:27.8650|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'statuscode' of type 'System.Int32'.
+2022-11-25 18:05:27.8650|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'statuscode' of type 'System.Int32' ...
+2022-11-25 18:05:27.8650|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'statuscode' of type 'System.Int32'.
+2022-11-25 18:05:27.8650|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-11-25 18:05:27.8650|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:27.8650|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:27.8650|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method EmployeeManagementApp.Controllers.ErrorController.HttpNonSuccessStatusCodeHandler (EmployeeManagementApp) - Validation state: Valid
+2022-11-25 18:05:27.8650|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method EmployeeManagementApp.Controllers.ErrorController.HttpNonSuccessStatusCodeHandler (EmployeeManagementApp) with arguments (404)
+2022-11-25 18:05:27.8650|WARN|EmployeeManagementApp.Controllers.ErrorController|404 Error occured in Path : /EmployeeManagementApp.styles.css & query string : 
+2022-11-25 18:05:27.8650|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method EmployeeManagementApp.Controllers.ErrorController.HttpNonSuccessStatusCodeHandler (EmployeeManagementApp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0398ms.
+2022-11-25 18:05:27.8650|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:27.8650|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:27.8650|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-11-25 18:05:27.8650|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.8650|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.8659|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2022-11-25 18:05:27.8659|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view 'NotFound' in controller 'Error'.
+2022-11-25 18:05:27.8659|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view NotFound.
+2022-11-25 18:05:27.8659|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Error/NotFound.cshtml' was found in 0.0571ms.
+2022-11-25 18:05:27.8659|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view '_Layout' in controller 'Error'.
+2022-11-25 18:05:27.8659|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view NotFound executed in 0.3307ms.
+2022-11-25 18:05:27.8659|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2022-11-25 18:05:27.8659|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.8659|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.8659|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.8659|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:27.8659|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action EmployeeManagementApp.Controllers.ErrorController.HttpNonSuccessStatusCodeHandler (EmployeeManagementApp) in 0.8087ms
+2022-11-25 18:05:27.8659|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMMES63VLTCV" completed keep alive response.
+2022-11-25 18:05:27.8659|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7203/EmployeeManagementApp.styles.css - - - 404 - text/html;+charset=utf-8 1.2645ms
+2022-11-25 18:05:29.5670|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7203/Home/Index - -
+2022-11-25 18:05:29.5670|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-11-25 18:05:29.5670|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Index does not match a supported file type
+2022-11-25 18:05:29.5670|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Home/Index'
+2022-11-25 18:05:29.5695|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller EmployeeManagementApp.Controllers.HomeController (EmployeeManagementApp).
+2022-11-25 18:05:29.5695|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2022-11-25 18:05:29.5695|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2022-11-25 18:05:29.5695|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+2022-11-25 18:05:29.5695|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2022-11-25 18:05:29.5695|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2022-11-25 18:05:29.5695|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:29.5695|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:29.5695|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller EmployeeManagementApp.Controllers.HomeController (EmployeeManagementApp)
+2022-11-25 18:05:29.5702|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller EmployeeManagementApp.Controllers.HomeController (EmployeeManagementApp)
+2022-11-25 18:05:29.5702|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-11-25 18:05:29.5702|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:29.5702|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:29.5702|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method EmployeeManagementApp.Controllers.HomeController.Index (EmployeeManagementApp) - Validation state: Valid
+2022-11-25 18:05:29.5709|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2022-11-25 18:05:29.5709|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms).
+2022-11-25 18:05:29.5709|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'EmployeeDB1.0' on server 'localhost'.
+2022-11-25 18:05:29.5761|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'EmployeeDB1.0' on server 'localhost'.
+2022-11-25 18:05:29.5761|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`Department`, `e`.`Email`, `e`.`Name`, `e`.`PhotoPath`
+FROM `Employees` AS `e`
+2022-11-25 18:05:29.5774|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `e`.`Id`, `e`.`Department`, `e`.`Email`, `e`.`Name`, `e`.`PhotoPath`
+FROM `Employees` AS `e`
+2022-11-25 18:05:29.5774|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-25 18:05:29.5774|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-25 18:05:29.5778|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-25 18:05:29.5778|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-25 18:05:29.5778|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-25 18:05:29.5778|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-25 18:05:29.5778|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-11-25 18:05:29.5778|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2022-11-25 18:05:29.5778|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'EmployeeDB1.0' on server 'localhost'.
+2022-11-25 18:05:29.5778|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'EmployeeDB1.0' on server 'localhost'.
+2022-11-25 18:05:29.5778|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method EmployeeManagementApp.Controllers.HomeController.Index (EmployeeManagementApp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 8.1347ms.
+2022-11-25 18:05:29.5778|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:29.5778|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:29.5778|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-11-25 18:05:29.5778|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:29.5778|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:29.5778|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2022-11-25 18:05:29.5789|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view 'Index' in controller 'Home'.
+2022-11-25 18:05:29.5789|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2022-11-25 18:05:29.5789|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Home/Index.cshtml' was found in 0.147ms.
+2022-11-25 18:05:29.5806|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view '_Layout' in controller 'Home'.
+2022-11-25 18:05:29.5818|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 2.9957ms.
+2022-11-25 18:05:29.5818|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2022-11-25 18:05:29.5818|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:29.5818|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:29.5818|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:29.5818|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:29.5818|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action EmployeeManagementApp.Controllers.HomeController.Index (EmployeeManagementApp) in 12.4487ms
+2022-11-25 18:05:29.5818|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMMES63VLTCV" completed keep alive response.
+2022-11-25 18:05:29.5818|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7203/Home/Index - - - 200 - text/html;+charset=utf-8 15.5139ms
+2022-11-25 18:05:33.2962|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7203/Home/Details/1 - -
+2022-11-25 18:05:33.2962|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-11-25 18:05:33.2962|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Details/1 does not match a supported file type
+2022-11-25 18:05:33.2962|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Home/Details/{id?}'
+2022-11-25 18:05:33.2987|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Details", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Details(System.Nullable`1[System.Int32]) on controller EmployeeManagementApp.Controllers.HomeController (EmployeeManagementApp).
+2022-11-25 18:05:33.2987|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2022-11-25 18:05:33.2987|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2022-11-25 18:05:33.2987|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+2022-11-25 18:05:33.2987|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2022-11-25 18:05:33.2987|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2022-11-25 18:05:33.2987|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:33.2987|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:33.2987|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller EmployeeManagementApp.Controllers.HomeController (EmployeeManagementApp)
+2022-11-25 18:05:33.3014|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller EmployeeManagementApp.Controllers.HomeController (EmployeeManagementApp)
+2022-11-25 18:05:33.3017|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Nullable`1[System.Int32]' ...
+2022-11-25 18:05:33.3017|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'id' of type 'System.Nullable`1[System.Int32]' using the name 'id' in request data ...
+2022-11-25 18:05:33.3017|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'id' of type 'System.Nullable`1[System.Int32]'.
+2022-11-25 18:05:33.3017|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Nullable`1[System.Int32]'.
+2022-11-25 18:05:33.3017|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Nullable`1[System.Int32]' ...
+2022-11-25 18:05:33.3017|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Nullable`1[System.Int32]'.
+2022-11-25 18:05:33.3017|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-11-25 18:05:33.3017|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:33.3017|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:33.3017|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method EmployeeManagementApp.Controllers.HomeController.Details (EmployeeManagementApp) - Validation state: Valid
+2022-11-25 18:05:33.3017|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method EmployeeManagementApp.Controllers.HomeController.Details (EmployeeManagementApp) with arguments (1)
+2022-11-25 18:05:33.3037|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:33.3037|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:33.3037|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-11-25 18:05:33.3037|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:33.3037|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:33.3047|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action EmployeeManagementApp.Controllers.HomeController.Details (EmployeeManagementApp) in 5.8167ms
+2022-11-25 18:05:33.3226|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request.|System.Exception: Some Error Occured... When Try to Acces Employee Details instead of returing the Default Http 500 status code on Page we are returning the custom Error.
+   at EmployeeManagementApp.Controllers.HomeController.Details(Nullable`1 id) in /Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/Controllers/HomeController.cs:line 59
+   at lambda_method72(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-11-25 18:05:33.3236|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Error does not match a supported file type
+2022-11-25 18:05:33.3236|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Error'
+2022-11-25 18:05:33.3249|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller EmployeeManagementApp.Controllers.ErrorController (EmployeeManagementApp).
+2022-11-25 18:05:33.3249|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2022-11-25 18:05:33.3249|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2022-11-25 18:05:33.3249|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+2022-11-25 18:05:33.3249|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2022-11-25 18:05:33.3249|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2022-11-25 18:05:33.3249|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:33.3249|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:33.3249|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller EmployeeManagementApp.Controllers.ErrorController (EmployeeManagementApp)
+2022-11-25 18:05:33.3249|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller EmployeeManagementApp.Controllers.ErrorController (EmployeeManagementApp)
+2022-11-25 18:05:33.3249|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-11-25 18:05:33.3249|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:33.3249|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:33.3249|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method EmployeeManagementApp.Controllers.ErrorController.Error (EmployeeManagementApp) - Validation state: Valid
+2022-11-25 18:05:33.3321|ERROR|EmployeeManagementApp.Controllers.ErrorController|The Path /Home/Details/1 threwed an Exception System.Exception: Some Error Occured... When Try to Acces Employee Details instead of returing the Default Http 500 status code on Page we are returning the custom Error.
+   at EmployeeManagementApp.Controllers.HomeController.Details(Nullable`1 id) in /Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/Controllers/HomeController.cs:line 59
+   at lambda_method72(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-11-25 18:05:33.3321|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method EmployeeManagementApp.Controllers.ErrorController.Error (EmployeeManagementApp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 7.0172ms.
+2022-11-25 18:05:33.3321|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:33.3321|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:33.3321|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-11-25 18:05:33.3321|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:33.3321|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:33.3321|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2022-11-25 18:05:33.3321|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view 'Error' in controller 'Error'.
+2022-11-25 18:05:33.3321|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/Error/Error.cshtml'.
+2022-11-25 18:05:33.3328|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/Views/Error/_ViewStart.cshtml'.
+2022-11-25 18:05:33.3328|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Located compiled view for view at path '/Views/_ViewStart.cshtml'.
+2022-11-25 18:05:33.3328|TRACE|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Could not find a file for view at path '/_ViewStart.cshtml'.
+2022-11-25 18:05:33.3328|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error.
+2022-11-25 18:05:33.3328|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Error/Error.cshtml' was found in 0.7541ms.
+2022-11-25 18:05:33.3412|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view '_Layout' in controller 'Error'.
+2022-11-25 18:05:33.3422|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 9.7564ms.
+2022-11-25 18:05:33.3422|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2022-11-25 18:05:33.3422|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:33.3422|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:33.3422|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:33.3422|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:33.3422|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action EmployeeManagementApp.Controllers.ErrorController.Error (EmployeeManagementApp) in 17.3158ms
+2022-11-25 18:05:33.3422|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMMES63VLTCV" completed keep alive response.
+2022-11-25 18:05:33.3422|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7203/Home/Details/1 - - - 500 - text/html;+charset=utf-8 46.2305ms
+2022-11-25 18:05:33.3512|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7203/EmployeeManagementApp.styles.css - -
+2022-11-25 18:05:33.3512|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-11-25 18:05:33.3512|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /EmployeeManagementApp.styles.css does not match an existing file
+2022-11-25 18:05:33.3512|DEBUG|Microsoft.AspNetCore.Routing.RouteBase|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'
+2022-11-25 18:05:33.3512|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ActionSelector|No actions matched the current request. Route values: controller=EmployeeManagementApp.styles.css, action=Index
+2022-11-25 18:05:33.3512|DEBUG|Microsoft.AspNetCore.Mvc.Routing.MvcRouteHandler|No actions matched the current request. Route values: controller=EmployeeManagementApp.styles.css, action=Index
+2022-11-25 18:05:33.3512|DEBUG|Microsoft.AspNetCore.Builder.RouterMiddleware|Request did not match any routes
+2022-11-25 18:05:33.3516|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Error/404 does not match a supported file type
+2022-11-25 18:05:33.3516|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Error/{statuscode}'
+2022-11-25 18:05:33.3516|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "HttpNonSuccessStatusCodeHandler", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult HttpNonSuccessStatusCodeHandler(Int32) on controller EmployeeManagementApp.Controllers.ErrorController (EmployeeManagementApp).
+2022-11-25 18:05:33.3516|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2022-11-25 18:05:33.3516|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2022-11-25 18:05:33.3516|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+2022-11-25 18:05:33.3516|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2022-11-25 18:05:33.3516|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2022-11-25 18:05:33.3516|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:33.3516|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:33.3516|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller EmployeeManagementApp.Controllers.ErrorController (EmployeeManagementApp)
+2022-11-25 18:05:33.3516|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller EmployeeManagementApp.Controllers.ErrorController (EmployeeManagementApp)
+2022-11-25 18:05:33.3516|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'statuscode' of type 'System.Int32' ...
+2022-11-25 18:05:33.3516|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'statuscode' of type 'System.Int32' using the name 'statuscode' in request data ...
+2022-11-25 18:05:33.3516|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'statuscode' of type 'System.Int32'.
+2022-11-25 18:05:33.3516|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'statuscode' of type 'System.Int32'.
+2022-11-25 18:05:33.3516|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'statuscode' of type 'System.Int32' ...
+2022-11-25 18:05:33.3516|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'statuscode' of type 'System.Int32'.
+2022-11-25 18:05:33.3516|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-11-25 18:05:33.3516|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:33.3516|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:33.3516|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method EmployeeManagementApp.Controllers.ErrorController.HttpNonSuccessStatusCodeHandler (EmployeeManagementApp) - Validation state: Valid
+2022-11-25 18:05:33.3516|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method EmployeeManagementApp.Controllers.ErrorController.HttpNonSuccessStatusCodeHandler (EmployeeManagementApp) with arguments (404)
+2022-11-25 18:05:33.3516|WARN|EmployeeManagementApp.Controllers.ErrorController|404 Error occured in Path : /EmployeeManagementApp.styles.css & query string : 
+2022-11-25 18:05:33.3516|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method EmployeeManagementApp.Controllers.ErrorController.HttpNonSuccessStatusCodeHandler (EmployeeManagementApp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0733ms.
+2022-11-25 18:05:33.3516|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:33.3516|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:33.3516|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-11-25 18:05:33.3516|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:33.3516|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:33.3516|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2022-11-25 18:05:33.3516|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view 'NotFound' in controller 'Error'.
+2022-11-25 18:05:33.3516|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view NotFound.
+2022-11-25 18:05:33.3516|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Error/NotFound.cshtml' was found in 0.061ms.
+2022-11-25 18:05:33.3528|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view '_Layout' in controller 'Error'.
+2022-11-25 18:05:33.3528|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view NotFound executed in 0.6686ms.
+2022-11-25 18:05:33.3528|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2022-11-25 18:05:33.3528|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:33.3528|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:33.3528|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:33.3528|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:33.3528|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action EmployeeManagementApp.Controllers.ErrorController.HttpNonSuccessStatusCodeHandler (EmployeeManagementApp) in 1.3032ms
+2022-11-25 18:05:33.3528|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMMES63VLTCV" completed keep alive response.
+2022-11-25 18:05:33.3528|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7203/EmployeeManagementApp.styles.css - - - 404 - text/html;+charset=utf-8 2.0402ms
+2022-11-25 18:05:39.0467|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7203/Home/Details/1 - -
+2022-11-25 18:05:39.0467|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-11-25 18:05:39.0467|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Home/Details/1 does not match a supported file type
+2022-11-25 18:05:39.0467|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Home/Details/{id?}'
+2022-11-25 18:05:39.0467|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Details", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Details(System.Nullable`1[System.Int32]) on controller EmployeeManagementApp.Controllers.HomeController (EmployeeManagementApp).
+2022-11-25 18:05:39.0467|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2022-11-25 18:05:39.0467|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2022-11-25 18:05:39.0467|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+2022-11-25 18:05:39.0467|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2022-11-25 18:05:39.0467|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2022-11-25 18:05:39.0467|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:39.0467|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:39.0467|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller EmployeeManagementApp.Controllers.HomeController (EmployeeManagementApp)
+2022-11-25 18:05:39.0474|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller EmployeeManagementApp.Controllers.HomeController (EmployeeManagementApp)
+2022-11-25 18:05:39.0474|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Nullable`1[System.Int32]' ...
+2022-11-25 18:05:39.0474|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'id' of type 'System.Nullable`1[System.Int32]' using the name 'id' in request data ...
+2022-11-25 18:05:39.0474|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'id' of type 'System.Nullable`1[System.Int32]'.
+2022-11-25 18:05:39.0474|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Nullable`1[System.Int32]'.
+2022-11-25 18:05:39.0474|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Nullable`1[System.Int32]' ...
+2022-11-25 18:05:39.0474|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Nullable`1[System.Int32]'.
+2022-11-25 18:05:39.0474|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-11-25 18:05:39.0474|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:39.0474|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:39.0474|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method EmployeeManagementApp.Controllers.HomeController.Details (EmployeeManagementApp) - Validation state: Valid
+2022-11-25 18:05:39.0474|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method EmployeeManagementApp.Controllers.HomeController.Details (EmployeeManagementApp) with arguments (1)
+2022-11-25 18:05:39.0474|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:39.0474|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:39.0474|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-11-25 18:05:39.0474|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:39.0474|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:39.0485|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action EmployeeManagementApp.Controllers.HomeController.Details (EmployeeManagementApp) in 1.1877ms
+2022-11-25 18:05:39.0497|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request.|System.Exception: Some Error Occured... When Try to Acces Employee Details instead of returing the Default Http 500 status code on Page we are returning the custom Error.
+   at EmployeeManagementApp.Controllers.HomeController.Details(Nullable`1 id) in /Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/Controllers/HomeController.cs:line 59
+   at lambda_method72(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-11-25 18:05:39.0497|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Error does not match a supported file type
+2022-11-25 18:05:39.0497|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Error'
+2022-11-25 18:05:39.0505|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Error", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller EmployeeManagementApp.Controllers.ErrorController (EmployeeManagementApp).
+2022-11-25 18:05:39.0505|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2022-11-25 18:05:39.0505|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2022-11-25 18:05:39.0505|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+2022-11-25 18:05:39.0505|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2022-11-25 18:05:39.0505|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2022-11-25 18:05:39.0505|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:39.0505|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:39.0505|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller EmployeeManagementApp.Controllers.ErrorController (EmployeeManagementApp)
+2022-11-25 18:05:39.0505|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller EmployeeManagementApp.Controllers.ErrorController (EmployeeManagementApp)
+2022-11-25 18:05:39.0505|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-11-25 18:05:39.0505|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:39.0505|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:39.0505|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method EmployeeManagementApp.Controllers.ErrorController.Error (EmployeeManagementApp) - Validation state: Valid
+2022-11-25 18:05:39.0518|ERROR|EmployeeManagementApp.Controllers.ErrorController|The Path /Home/Details/1 threwed an Exception System.Exception: Some Error Occured... When Try to Acces Employee Details instead of returing the Default Http 500 status code on Page we are returning the custom Error.
+   at EmployeeManagementApp.Controllers.HomeController.Details(Nullable`1 id) in /Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/Controllers/HomeController.cs:line 59
+   at lambda_method72(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-11-25 18:05:39.0518|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method EmployeeManagementApp.Controllers.ErrorController.Error (EmployeeManagementApp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.0456ms.
+2022-11-25 18:05:39.0518|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:39.0518|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:39.0518|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-11-25 18:05:39.0518|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:39.0518|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:39.0518|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2022-11-25 18:05:39.0518|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view 'Error' in controller 'Error'.
+2022-11-25 18:05:39.0518|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Error.
+2022-11-25 18:05:39.0518|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Error/Error.cshtml' was found in 0.1127ms.
+2022-11-25 18:05:39.0524|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view '_Layout' in controller 'Error'.
+2022-11-25 18:05:39.0524|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Error executed in 1.124ms.
+2022-11-25 18:05:39.0524|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2022-11-25 18:05:39.0524|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:39.0524|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:39.0524|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:39.0524|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:39.0534|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action EmployeeManagementApp.Controllers.ErrorController.Error (EmployeeManagementApp) in 2.7973ms
+2022-11-25 18:05:39.0534|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMMES63VLTCV" completed keep alive response.
+2022-11-25 18:05:39.0534|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7203/Home/Details/1 - - - 500 - text/html;+charset=utf-8 6.8917ms
+2022-11-25 18:05:39.0621|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7203/EmployeeManagementApp.styles.css - -
+2022-11-25 18:05:39.0621|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-11-25 18:05:39.0621|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /EmployeeManagementApp.styles.css does not match an existing file
+2022-11-25 18:05:39.0624|DEBUG|Microsoft.AspNetCore.Routing.RouteBase|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'
+2022-11-25 18:05:39.0624|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ActionSelector|No actions matched the current request. Route values: controller=EmployeeManagementApp.styles.css, action=Index
+2022-11-25 18:05:39.0624|DEBUG|Microsoft.AspNetCore.Mvc.Routing.MvcRouteHandler|No actions matched the current request. Route values: controller=EmployeeManagementApp.styles.css, action=Index
+2022-11-25 18:05:39.0624|DEBUG|Microsoft.AspNetCore.Builder.RouterMiddleware|Request did not match any routes
+2022-11-25 18:05:39.0624|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /Error/404 does not match a supported file type
+2022-11-25 18:05:39.0624|DEBUG|Microsoft.AspNetCore.Routing.Tree.TreeRouter|Request successfully matched the route with name '(null)' and template 'Error/{statuscode}'
+2022-11-25 18:05:39.0624|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "HttpNonSuccessStatusCodeHandler", controller = "Error"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult HttpNonSuccessStatusCodeHandler(Int32) on controller EmployeeManagementApp.Controllers.ErrorController (EmployeeManagementApp).
+2022-11-25 18:05:39.0624|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2022-11-25 18:05:39.0624|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2022-11-25 18:05:39.0624|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+2022-11-25 18:05:39.0624|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2022-11-25 18:05:39.0624|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2022-11-25 18:05:39.0624|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:39.0624|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:39.0624|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller EmployeeManagementApp.Controllers.ErrorController (EmployeeManagementApp)
+2022-11-25 18:05:39.0624|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller EmployeeManagementApp.Controllers.ErrorController (EmployeeManagementApp)
+2022-11-25 18:05:39.0624|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'statuscode' of type 'System.Int32' ...
+2022-11-25 18:05:39.0624|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'statuscode' of type 'System.Int32' using the name 'statuscode' in request data ...
+2022-11-25 18:05:39.0624|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'statuscode' of type 'System.Int32'.
+2022-11-25 18:05:39.0624|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'statuscode' of type 'System.Int32'.
+2022-11-25 18:05:39.0624|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'statuscode' of type 'System.Int32' ...
+2022-11-25 18:05:39.0624|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'statuscode' of type 'System.Int32'.
+2022-11-25 18:05:39.0624|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-11-25 18:05:39.0624|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:39.0624|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:39.0624|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method EmployeeManagementApp.Controllers.ErrorController.HttpNonSuccessStatusCodeHandler (EmployeeManagementApp) - Validation state: Valid
+2022-11-25 18:05:39.0624|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method EmployeeManagementApp.Controllers.ErrorController.HttpNonSuccessStatusCodeHandler (EmployeeManagementApp) with arguments (404)
+2022-11-25 18:05:39.0634|WARN|EmployeeManagementApp.Controllers.ErrorController|404 Error occured in Path : /EmployeeManagementApp.styles.css & query string : 
+2022-11-25 18:05:39.0634|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method EmployeeManagementApp.Controllers.ErrorController.HttpNonSuccessStatusCodeHandler (EmployeeManagementApp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0778ms.
+2022-11-25 18:05:39.0634|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:39.0634|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-11-25 18:05:39.0634|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-11-25 18:05:39.0634|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:39.0634|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:39.0634|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2022-11-25 18:05:39.0634|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view 'NotFound' in controller 'Error'.
+2022-11-25 18:05:39.0634|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view NotFound.
+2022-11-25 18:05:39.0634|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Error/NotFound.cshtml' was found in 0.1089ms.
+2022-11-25 18:05:39.0634|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache hit for view '_Layout' in controller 'Error'.
+2022-11-25 18:05:39.0644|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view NotFound executed in 0.8043ms.
+2022-11-25 18:05:39.0644|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2022-11-25 18:05:39.0644|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:39.0644|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:39.0644|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:39.0644|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2022-11-25 18:05:39.0644|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action EmployeeManagementApp.Controllers.ErrorController.HttpNonSuccessStatusCodeHandler (EmployeeManagementApp) in 1.6855ms
+2022-11-25 18:05:39.0644|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMMES63VLTCV" completed keep alive response.
+2022-11-25 18:05:39.0644|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7203/EmployeeManagementApp.styles.css - - - 404 - text/html;+charset=utf-8 2.6385ms
+2022-11-25 18:07:38.8171|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMMES63VLTD0" disconnecting.
+2022-11-25 18:07:38.8221|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMMES63VLTD0" stopped.
+2022-11-25 18:07:38.8236|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMMES63VLTD0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-25 18:07:49.8218|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMMES63VLTCV" disconnecting.
+2022-11-25 18:07:49.8231|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMMES63VLTCV" stopped.
+2022-11-25 18:07:49.8231|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMMES63VLTCV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-25 18:16:38.1491|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Hosting shutdown

@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "Account Locked Due to so many Invalid login attempts";
+}
+<div class="container mt-3">
+    <div class="alert alert-dark" role="alert">
+         <span class="alert-link text-danger"> Your account is locked</span>,please try again after sometime or you may -
+        <a asp-action="ForgetPassword" asp-controller="Account" class="alert-link text-primary">
+           Reset your password by clicking here
+        </a>
+    </div>
+    <div class="text-center mt-1">
+        <img src="~/images/AccountLocked.png" alt="Account Locked" asp-append-version="true" class="img-fluid" style="width: auto; height:400px;">
+    </div>
+</div>

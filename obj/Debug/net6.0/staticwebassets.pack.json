@@ -1,0 +1,321 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/obj/Debug/net6.0/scopedcss/projectbundle/EmployeeManagementApp.bundle.scp.css",
+      "PackagePath": "staticwebassets/EmployeeManagementApp.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/images/.DS_Store",
+      "PackagePath": "staticwebassets/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/images/1d2ba720-1229-4c3e-82e4-162093b33d8a_Alex.jpeg",
+      "PackagePath": "staticwebassets/images/1d2ba720-1229-4c3e-82e4-162093b33d8a_Alex.jpeg"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/images/7c053f02-5617-4551-8c04-76bc32f2daaa_David.jpg",
+      "PackagePath": "staticwebassets/images/7c053f02-5617-4551-8c04-76bc32f2daaa_David.jpg"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/images/AccountLocked.png",
+      "PackagePath": "staticwebassets/images/AccountLocked.png"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/images/David.jpg",
+      "PackagePath": "staticwebassets/images/David.jpg"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/images/Henry.jpg",
+      "PackagePath": "staticwebassets/images/Henry.jpg"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/images/accessdenied.png",
+      "PackagePath": "staticwebassets/images/accessdenied.png"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/images/d4052679-5122-42bd-bfbb-6e1556b6c039_person1.jpg",
+      "PackagePath": "staticwebassets/images/d4052679-5122-42bd-bfbb-6e1556b6c039_person1.jpg"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/images/email-confirmed-Success.png",
+      "PackagePath": "staticwebassets/images/email-confirmed-Success.png"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/images/email-registration.jpg",
+      "PackagePath": "staticwebassets/images/email-registration.jpg"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/images/logo.jpg",
+      "PackagePath": "staticwebassets/images/logo.jpg"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/images/person1.jpg",
+      "PackagePath": "staticwebassets/images/person1.jpg"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/images/resetpasswordconfirmation.png",
+      "PackagePath": "staticwebassets/images/resetpasswordconfirmation.png"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/js/CustomScripts.js",
+      "PackagePath": "staticwebassets/js/CustomScripts.js"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/ka20364917/Desktop/Asp.NetCore-Learning/EmployeeManagementApp/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.EmployeeManagementApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.EmployeeManagementApp.props",
+      "PackagePath": "build\\EmployeeManagementApp.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.EmployeeManagementApp.props",
+      "PackagePath": "buildMultiTargeting\\EmployeeManagementApp.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.EmployeeManagementApp.props",
+      "PackagePath": "buildTransitive\\EmployeeManagementApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

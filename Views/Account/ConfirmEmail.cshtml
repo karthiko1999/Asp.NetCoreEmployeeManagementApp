@@ -1,0 +1,33 @@
+<div class="container mt-3">
+    <div class="alert alert-info" role="alert">
+    <h2 calss="text-dark" >
+        @ViewBag.Title
+    </h2>
+    <hr>
+    <p calss="text-info">
+        @* print suitable message *@
+    @if(ViewBag.Message == null)
+    {
+        @ViewBag.SomeInformation
+    }
+    else
+    {
+        @ViewBag.Message    
+    }
+    </p>
+</div>
+@* Dispaly valid image *@
+    @if(ViewBag.Message == null)
+    {
+        <div class="text-center mt-1">
+        <img src="~/images/email-confirmed-Success.png" asp-append-version="true" class="img-fluid" style="width: auto; height:300px;" />
+        </div>
+    }
+    else
+    {
+        <div class="text-center mt-1">
+        <img src="~/images/email-registration.jpg" class="text-center mt-3" asp-append-version="true" class="img-fluid" style="width: auto; height:300px;" />
+        </div> 
+    }
+    
+</div>

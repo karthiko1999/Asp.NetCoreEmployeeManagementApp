@@ -1,0 +1,88 @@
+@model IQueryable<IdentityRole>
+@* Inject the IAuthorizationService to check if the signed in user is satisfy the policy *@
+@using Microsoft.AspNetCore.Authorization;
+@inject IAuthorizationService authorizationService
+
+@{
+    ViewData["Title"] = "List Of Roles : AspNetRoles table";
+}
+<div class="container mt-3">
+
+    <h1 class="text-primary my-3">All Roles</h1>
+
+    @* letus check is any roles are available *@
+    @if (Model.Any())
+    {
+        @* Here we need to diplay Addnew role button only if the signed in user statisfy the CreateRolepolicy which
+            associated with a particular claim *@
+        @if ((await authorizationService.AuthorizeAsync(User, "CreateRolePolicy")).Succeeded)
+        {
+            @* This is to add new Role *@
+            <a class="btn btn-secondary mb-4" style="width:auto" asp-action="CreateRole" asp-controller="Administration">Add new
+                role : AspNetRoles Table</a>
+        }
+        @* If Role are available dispaly each role indiviual on cards *@
+        foreach (var role in Model)
+        {
+            <div class="card mb-3">
+                <div class="card-header">
+                    Role Id : @role.Id
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">@role.Name</h5>
+                </div>
+                <div class="card-footer">
+                    <form method="post" asp-action="DeleteRole" asp-controller="Administration" asp-route-roleId="@role.Id">
+
+                        @* Here we need to diplay edit button only if the signed in user statisfy the policy which associated
+                            with a particular claim *@
+                        @if ((await authorizationService.AuthorizeAsync(User, "Edit RolePolicy")).Succeeded)
+                        {
+                            <a class="btn btn-primary" asp-action="EditRole" asp-controller="Administration"
+                    asp-route-id="@role.Id">Edit</a>
+                        }
+
+                        @* Here we need to display delete button only if the signed in user statisfy the deleterolepolicy which
+                            associated with a particular delete role claim *@
+                        @if ((await authorizationService.AuthorizeAsync(User, "DeleteRolePolicy")).Succeeded)
+                        {
+                            <span id="confirmDeleteSpan_@role.Id" style="display:none;">
+                                <span>Are you sure want to delete role?</span>
+                                <button type="submit" class="btn btn-danger ml-3">Yes</button>
+                                <a href="#" class="btn btn-primary" onclick="confirmDelete('@role.Id',false)">No</a>
+
+                            </span>
+                            <span id="deleteSpan_@role.Id">
+                                <a class="btn btn-danger" onclick="confirmDelete('@role.Id',true)">Delete</a>
+                            </span>
+                        }
+                    </form>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        @* If Nove roles are availabe then we have dispaly card no roles have been created ,and button to create new role *@
+        <div class="card mb-3">
+            <div class="card-header">
+                No Roles are created yet...
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">
+                    Use the button below to create a role
+                </h5>
+            </div>
+            <div class="card-footer">
+                <a asp-action="createRole" asp-controller="Administration" class="btn btn-info" style="width: auto;">Add New
+                    Role</a>
+            </div>
+        </div>
+    }
+
+
+</div>
+
+@section Scripts{
+<script src="~/js/CustomScripts.js"></script>
+}

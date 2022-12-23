@@ -1,0 +1,92 @@
+@model EditEmployeeViewModel
+
+@{
+    ViewBag.Title = "Editing Employee Details...";
+    // Get the full path of the existing employee photo for display
+    var photoPath = "~/images/" + (Model.ExistingPhotoPath ?? "person1.jpg");
+}
+
+<div class="container mt-3">
+
+    <form method="post"  asp-controller="home"  asp-action="edit" enctype="multipart/form-data">
+
+        @*Use hidden input elements to store employee id and ExistingPhotoPath which we need when we submit the form and update data in the database*@
+        <input hidden asp-for="Id" />
+        <input hidden asp-for="ExistingPhotoPath" />
+
+
+        @*Bind to the properties of the EmployeeEditViewModel. The asp-for tag helper takes care of displaying the existing data in the respective input elements*@
+        <div class="form-group row">
+            <label asp-for="Name" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="Name" class="form-control" placeholder="Please Enter Name of Employee"
+                    style="color: rgb(0, 123, 255);">
+                <span asp-validation-for="Name" class="text-danger"></span>
+
+            </div>
+        </div>
+
+
+        <div class="form-group row mt-3">
+            <label asp-for="Email" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="Email" class="form-control" placeholder="Please Enter Email"
+                    style="color: rgb(0, 123, 255);" contet=>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+        </div>
+
+
+        <div class="form-group row mt-3">
+            <label asp-for="Department" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <div>
+                    <select asp-for="Department" asp-items="Html.GetEnumSelectList<Department>()"
+                        class="custom-select " style="width:300px;">
+                        <option value="">Please Select...</option>
+                    </select>
+                </div>
+                <div>
+                    <span asp-validation-for="Department" class="text-danger">
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group row mt-3">
+            <label asp-for="Photo" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <div class="custom-file">
+                    <input asp-for="Photo" class="form-control custom-file-input">
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group row col-sm-4 offset-3 mt-3">
+            <img class="imageThumbnail" src="@photoPath" asp-append-version="true" style="width:70%;" />
+        </div>
+
+        <div class="form-group row mt-3 text-danger" asp-validation-summary="All"></div>
+
+        <div class="form-group row mt-3">
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Update</button>
+                <button class="btn btn-secondary mx-2" asp-controller="home" asp-action="index">Cancel</button>
+            </div>
+        </div>
+
+
+        @*This script is required to display the selected file in the file upload element*@
+        @section Scripts {
+        <script>
+            $(document).ready(function () {
+                $('.custom-file-input').on("change", function () {
+                    var fileName = $(this).val().split("\\").pop();
+                    $(this).next('.custom-file-label').html(fileName);
+                });
+            });
+        </script>
+        }
+
+    </form>
+</div>

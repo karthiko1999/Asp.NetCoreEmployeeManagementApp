@@ -1,0 +1,203 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@inject SignInManager<ApplicationUser> _signInManager;
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+
+    @* This are Environment Tag helpers to render the content based on value of Hosting Environments *@
+    <environment include="Development">
+        <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+
+        @* But On My Machine Custom Valiadation is not working *@
+        @* Approach 1.ustom JavaScript code to implement client-side validation which is obviously tedious and time
+            consuming. *@
+        @* Approach 2. Use Unobstrive Client Side librarys provide by Asp.Net Core to perfrom Validations on the Client
+            machine,so reduce roundtrip on server and load,user get instat feedback also*@
+        @* Unobtrusive Validation allows us to take the already-existing server side validation attributes and use them
+            to implement client-side validation. *@
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+        <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+
+
+
+    </environment>
+    @* If environment not match *@
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"
+            @* If the CDN is down we need to Fallback to local server download files *@ @* To Check the CDN is down or
+                not we use 3 attributes *@ asp-fallback-test-class="sr-only" asp-fallback-test-property="position"
+            asp-fallback-test-value="absolute" @* After checking the CDN by above if its down we need to provide
+                fallback source *@ asp-fallback="~/lib/bootstrap/dist/css/bootstrap.min.css" @* Since we are downloading the
+                file from trusted or own server, so that we turn off intergity check on that file*@
+            asp-suppress-fallback-integrity="true" />
+
+
+
+        @* this are scripts *@
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+        <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+        
+
+       
+        
+    </environment>
+
+
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/EmployeeManagementApp.styles.css" asp-append-version="true" />
+
+     @* Scripts for icon *@
+        <script src="https://kit.fontawesome.com/caab497446.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    @* NavBar *@
+    <div class="container">
+        <nav class="navbar navbar-expand-sm bg-info sticky-top navbar-dark">
+            <a class="navbar-brand" asp-controller="home" asp-action="index" style="padding-left:20px;">
+                <img src="~/images/logo.jpg" width="40" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-controller="home" asp-action="index">List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-controller="home" asp-action="create">Create</a>
+                    </li>
+                    @* here we need display a user/roles manage nav item if logied in user is in Administrator role *@
+                    
+                    <li class="nav-item dropdown bg">
+                    <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Manage</a>
+                    <div class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdownMenuLink">
+                    @if (_signInManager.IsSignedIn(User) && (User.IsInRole("Admin")|| User.IsInRole("Super Admin")) )
+                    {
+                                <a class="dropdown-item text-white" asp-controller="Administration"
+                                asp-action="ListUsers">Users</a>
+                                <a class="dropdown-item text-white" asp-controller="Administration"
+                                asp-action="ListRoles">Roles</a>
+                    }
+                    <a class="dropdown-item text-white" asp-controller="Account"
+                                asp-action="ChangePassword">Password</a>
+                    </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav" style="margin-left: auto; margin-right:20px">
+                    @* Inject signinmanager and check user is signin or not *@
+                    @*If the user is signed-in display Logout link*@
+                    @if (_signInManager.IsSignedIn(User))
+                    {
+                        <li class="nav-item">
+                            <form method="post" asp-controller="account" asp-action="logout">
+                                <button type="submit" style="width:auto" class="nav-link btn btn-link py-0 text-white">
+                                    Logout @User.Identity.Name
+                                </button>
+                            </form>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" asp-controller="account" asp-action="register">
+                                Register
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" asp-controller="account" asp-action="login">
+                                Login
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </nav>
+
+        <div>
+            @RenderBody()
+        </div>
+
+
+        @if (IsSectionDefined("Scripts"))
+        {
+            @RenderSection("Scripts", required: false)
+        }
+
+
+        @* This is for footer *@
+        @if(! string.IsNullOrEmpty(ViewBag.UseFooter))
+        {
+         <footer class="pt-3">
+             @if(! _signInManager.IsSignedIn(User))
+             {
+
+                    <div class="footer-firstdiv">
+                        <h4>Contact Us</h4>
+                    </div>
+                    <div class="Logos-Box">
+                        <div class="Box">
+                            <i class="fa-solid fa-phone px-3" style="color:brown;"></i>
+                            <p>+91-7760516947</p>
+                        </div>
+                        <div class="Box" >
+                            <i class="fa-solid fa-envelope px-3"  style="color:brown;"></i>
+                            <p>obaleshkarthik@gmail.com</p>
+                        </div>
+                        <div class="Box">
+                            <i class="fa-solid fa-location-dot px-3"  style="color:brown;"></i>
+                            <p>2nd main 3rd cross near KSTRC bus stand,Jagalur.</p>
+                        </div>
+                    </div>
+             }
+              <!-- Copyright -->
+            <div class="text-center bg-secondary" style="background-color: rgba(0, 0, 0, 0.2);">
+                @if(! _signInManager.IsSignedIn(User))
+                {
+                     <span>© 2020 Copyright:</span> 
+                    <a class="text-white" href="https://google.com/" style="text-decoration: none;">EmployeeManagementApp.com</a>
+                }
+                else
+                {
+                     <span>End of Page.</span>
+                }
+               
+
+            </div>
+         </footer>
+        }
+    </div>
+
+    @* This are Scripts required to bootsrap to work fine *@
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B     +Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

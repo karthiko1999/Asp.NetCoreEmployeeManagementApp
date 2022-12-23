@@ -1,0 +1,53 @@
+@model RegisterViewModel
+
+@{
+    ViewData["Title"] = "Register User";
+}
+
+<div class="container mt-3 alert alert-info">
+        <h2>Register New User</h2>
+        <hr>
+        <form method="post" asp-controller="Account" asp-action="Register">
+           <div class="form-group row">
+                 <div  asp-validation-summary="All" class="text-danger">
+            </div>
+           </div>
+            <div class="form-group row">
+                <label asp-for="Email" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="Email" class="form-control" placeholder="Please Enter Email">
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row mt-3">
+                <label asp-for="Password" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="Password" class="form-control" placeholder="Enter Password">
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row mt-3">
+                <label asp-for="ConfirmPassword" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="ConfirmPassword" class="form-control"
+                        placeholder="Please Confirm your entered Password">
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row mt-3">
+                <label asp-for="City" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="City" class="form-control" placeholder="Enter your Native city">
+                </div>
+            </div>
+
+            <div class="form-group row mt-3">
+                <div class="col-sm-10">
+                    <button type="submit" class="btn btn-secondary w-auto">Register...</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+</div>

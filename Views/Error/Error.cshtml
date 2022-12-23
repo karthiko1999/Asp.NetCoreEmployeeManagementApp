@@ -1,0 +1,41 @@
+@{
+    ViewData["Title"] = "Internal Server Error : 500,Some Exception Occured.";
+}
+
+<div class="alert alert-danger mt-2" role="alert">
+ 
+ @* general error view that we are display only if there secific message regarding eror *@
+    @if(ViewBag.ErrorTitle == null)
+    {
+        @* this we need to display if there we donto have any particular message of error to display *@
+       <h3 class="text-info">An Error occured while processing your request. The support team is notified and we are working on the fix</h3>
+        <hr>
+        <h5>Please contact us on Micro@micro.com for any queries.</h5>
+    }
+    else
+    {
+        <h2>@ViewBag.ErrorTitle</h2>
+         <hr>
+        <p>@ViewBag.ErrorMessage</p>
+    }
+    
+
+    @* This we need to display on development environment not in production so comment *@
+    @* <div class="pt-1">
+        <h5 class="text-info">Exception Path</h5>
+        <p class="text-danger h6">@ViewBag.Path</p>
+    </div>
+    <hr>
+    <div class="pt-1">
+        <h5 class="text-info">Exception Message</h5>
+        <p class="text-danger h6">@ViewBag.ErrorMessage</p>
+    </div>
+    <hr>
+    <div class="pt-1">
+        <h5 class="text-info">Stack Trace</h5>
+        <p class="text-danger h6">@ViewBag.StackTrace</p>
+    </div>
+    <hr> *@
+
+
+</div>

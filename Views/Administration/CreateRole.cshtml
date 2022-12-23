@@ -1,0 +1,25 @@
+@model CreateRoleViewModel
+@{
+    ViewData["Title"] = "Creating Role : AspNetRoles Table";
+}
+
+<div class="container mt-3">
+    <form method="post" asp-action="createRole" asp-controller="Administration">
+        <div class="form-group row">
+            <div asp-validation-summary="All"></div>
+        </div>
+        <div class="form-group row">
+            <label asp-for="RoleName" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="RoleName" class="form-control" placeholder="Please Enter Role Name here">
+                <span asp-validation-for="RoleName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row mt-4">
+            <div class="col-sm-10">
+                <button type="submit" class="btn btn-secondary w-auto">Create Role</button>
+            </div>
+        </div>
+
+    </form>
+</div>

@@ -1,0 +1,79 @@
+@model IEnumerable<ApplicationUser>;
+@{
+    ViewData["Title"] = "List of Users-IdentityUsers Table";
+}
+<div class="container mt-3">
+    <h1 class="text-primary my-3">All Users</h1>
+    @if (Model.Any())
+    {
+        <a class="btn btn-secondary mb-4" style="width:auto" asp-action="Register" asp-controller="Account">Add new User</a>
+
+        @* If users are available dispaly each user indiviual on cards *@
+        foreach (var user in Model)
+        {
+            <div class="text-danger" asp-validation-summary="All"></div>
+            <div class="card mb-3">
+                <div class="card-header">
+                    User Id : @user.Id
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">@user.UserName</h5>
+                </div>
+                <div class="card-footer"> 
+                    <form method="post" asp-action="DeleteUser" asp-controller="Administration" asp-route-userId= "@user.Id"> 
+
+                    @* When we click on the Edit button against any employee on the ListUsers view, we want to redirect the user to /Administration/EditUser/UserId. *@
+                    <a class="btn btn-primary" asp-action="EditUser" asp-controller="Administration" asp-route-id="@user.Id">Edit</a> 
+                    
+
+                    @* This to delete the user by sending id as a route *@
+                    @* Approach 1 . deLETE confirmation using Js Confirm() by adding a onlclick() attribute on delete
+                        <button type="submit" class="btn btn-danger" onclick=" return confirm('Are you sure you want to delete user : @user.UserName') ">Delete</button>
+                     
+
+                    @* Approach 2. Inline display of button to avoid context switch *@
+
+                     <span id="confirmDeleteSpan_@user.Id" style="display: none;" >
+                        <span>Are you sure want to delete user : @user.UserName</span>
+                        @* if user click on yes we need to delete user *@
+                        <button type="submit" class="btn btn-danger">Yes</button> 
+                       
+                        @* if user click on no we need to hide this span and show deleteSpan  by using js code*@
+                        <a  class="btn btn-primary"  onclick="confirmDelete('@user.Id',false)">No</a> 
+                    </span> 
+
+                    @* if user click on delete we need to hide this span and show confirmDeleteSpan  by using js code function  *@
+                    
+                    <span id="deleteSpan_@user.Id">
+                         <a class="btn btn-danger" onclick="confirmDelete('@user.Id',true)">Delete</a>
+                    </span> 
+
+                      </form> 
+                 </div> 
+            </div>
+        }
+    }
+    else
+    {
+        @* We need to display no user at this moment create new user on card *@
+        <div class="card">
+            <div class="card-header">
+                No users created yet
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">
+                    Use the button below to create a user
+                </h5>
+            </div>
+            <div class="card-footer">
+                <a class="btn btn-info" style="width:auto" asp-controller="Account" asp-action="Register">
+                    Add new user
+                </a>
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts{
+    <script src="~/js/CustomScripts.js"></script>
+}

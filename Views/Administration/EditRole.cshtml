@@ -1,0 +1,62 @@
+@model EditRoleViewModel
+@{
+    ViewData["Title"] = "Editing Role : AspNetRoles";
+}
+
+<div class="container mt-3">
+
+    <h1 class="text-primary my-3">Edit Role</h1>
+
+    <form method="post" asp-action="EditRole" asp-controller="Administration">
+        <div class="form-group row text-danger">
+            <div asp-validation-summary="All"></div>
+        </div>
+        @* Role Id is disabled for edit *@
+        <div class="form-group row mt-3">
+            <label asp-for="id" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="id" class="form-control" disabled>
+            </div>
+        </div>
+        @* Role Name to edit *@
+        <div class="form-group row mt-3">
+            <label asp-for="RoleName" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="RoleName" class="form-control" placeholder="Please edit Role Name">
+                <span asp-validation-for="RoleName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row my-4">
+            @* Update Button and Canacel *@
+            <div class="col-sm-10">
+                <button type="submit" class="btn btn-primary w-auto mr-3">Update</button>
+                <a asp-action="ListRoles" asp-controller="Administration" class="btn btn-danger">Cancel</a>
+            </div>
+        </div>
+
+        @* Display users of this role using cards and dispaly user or nouser message on card body *@
+        <div class="card">
+            <div class="card-header">
+                <h3>Users in this role</h3>
+            </div>
+            <div class="card-body">
+                @* if any user display name eslse default text *@
+                @if (Model.Users.Any())
+                {
+                    foreach(string user in Model.Users)
+                    {
+                        <h5 class="card-title">@user</h5>
+                    }
+                }
+                else
+                {
+                     <h5 class="card-title">No users are in this role at this moment</h5>
+                }
+            </div>
+            <div class="card-footer">
+                <a asp-action="EditUsersInRole" asp-controller="Administration" asp-route-roleId="@Model.id" class="btn btn-info" style="width:auto">Add or Remove Users from this Role</a>
+            </div>
+        </div>
+
+    </form>
+</div>

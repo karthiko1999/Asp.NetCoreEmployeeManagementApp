@@ -1,0 +1,103 @@
+@model EditUserViewModel
+@{
+    ViewData["Title"] = "Editing User : AspNetUsers";
+}
+
+<div class="container mt-3">
+
+    <h1 class="text-primary my-3">Edit User</h1>
+
+    <form method="post" asp-action="EditUser" asp-controller="Administration">
+        <div class="form-group row text-danger">
+            <div asp-validation-summary="All"></div>
+        </div>
+        @* User Id is disabled for edit *@
+        <div class="form-group row mt-3">
+            <label asp-for="id" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="id" disabled class="form-control" >
+            </div>
+        </div>
+        @* Emailto edit *@
+        <div class="form-group row mt-3">
+            <label asp-for="Email" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="Email" class="form-control" placeholder="Please enter User Name">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+        </div>
+        @* User Name to edit *@
+        <div class="form-group row mt-3">
+            <label asp-for="UserName" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="UserName" class="form-control" placeholder="Please enter User Name">
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+        </div>
+        @* City of User *@
+        <div class="form-group row mt-3">
+            <label asp-for="City" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="City" class="form-control" placeholder="Please enter City Name">
+            </div>
+        </div>
+        <div class="form-group row my-4">
+            @* Update Button and Canacel *@
+            <div class="col-sm-10">
+                <button type="submit" class="btn btn-primary w-auto mr-3">Update</button>
+                <a asp-action="ListUsers" asp-controller="Administration" class="btn btn-danger">Cancel</a>
+            </div>
+        </div>
+
+        @* Display roles of this user using cards and dispaly user or nouser message on card body *@
+        <div class="card">
+            <div class="card-header">
+                <h3>Roles in this user</h3>
+            </div>
+            <div class="card-body">
+                @* if any user display name eslse default text *@
+                @if (Model.Roles.Any())
+                {
+                    foreach (string role in Model.Roles)
+                    {
+                        <h5 class="card-title">@role</h5>
+                    }
+                }
+                else
+                {
+                    <h5 class="card-title">No roles are in this user at this moment</h5>
+                }
+            </div>
+            <div class="card-footer">
+                <a asp-action="ManageUserRoles" asp-controller="Administration" asp-route-userId="@Model.id"
+                    class="btn btn-info" style="width:auto">Add or Remove Roles from this User</a>
+            </div>
+        </div>
+
+        @* Display claims of this user using cards and dispaly user or nouser message on card body *@
+        <div class="card mt-4">
+            <div class="card-header">
+                <h3>Claims in this user</h3>
+            </div>
+            <div class="card-body">
+                @* if any user display name eslse default text *@
+                @if (Model.Claims.Any())
+                {
+                    foreach (string claim in Model.Claims)
+                    {
+                        <h5 class="card-title">@claim</h5>
+                    }
+                }
+                else
+                {
+                    <h5 class="card-title">No Claims are in this user at this moment</h5>
+                }
+            </div>
+            <div class="card-footer">
+                <a asp-action="ManageUserClaims" asp-controller="Administration" asp-route-userId="@Model.id"
+                    class="btn btn-info" style="width:auto">Add or Remove Claims from this User</a>
+            </div>
+        </div>
+
+    </form>
+</div>

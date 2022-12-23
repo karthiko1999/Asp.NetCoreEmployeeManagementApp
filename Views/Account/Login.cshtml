@@ -1,0 +1,93 @@
+@model LoginViewModel;
+@{
+    ViewData["Title"] = "Login User";
+    ViewBag.UseFooter = "Use";
+}
+
+<div class="container mt-3" style="padding-bottom:50px;">
+    <div class="row">
+
+        <div class="col-sm-6 alert alert-primary ">
+            <h1>External Login</h1>
+            <hr />
+             
+            @if (Model.ExternalLogins.Count == 0)
+            {
+                <div>
+                    <h3>No external logins configured</h3>
+                </div>
+            }
+            else
+            {
+                @* wE need to iterate through each login providers and dynamically generate Button where we redirectead to
+                    OAuth conset window of that login providers when user click on that button*@
+                <div>
+                    <form method="post" asp-action="ExternalLogin"  asp-route-returnUrl = "@Model.ReturnUrl">
+                        @foreach (var provider in Model.ExternalLogins)
+                        {
+                            <button type="submit"  class="btn btn-success"
+                            name="provider" value="@provider.DisplayName" title="Login using your @provider.DisplayName account" style="width: auto;">
+                            @provider.DisplayName</button>
+                        }
+                    </form>
+                </div>
+             } 
+
+        
+        </div>
+        <div class="col-sm-6">
+            <div class="alert alert-dark " style="padding-left: 10px;">
+            <h1>Local Account Login</h1>
+            <hr />
+            <form method="post" asp-controller="Account" asp-action="Login" asp-route-returnUrl="@Model.ReturnUrl">
+            
+                <div class="form-group row">
+                    <div asp-validation-summary="All" class="text-danger">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label asp-for="Email" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                        <input asp-for="Email" class="form-control" placeholder="Please Enter Email">
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row mt-3">
+                    <label asp-for="Password" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                        <input asp-for="Password" class="form-control" placeholder="Enter Password">
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group row mt-3">
+                    <div class="col" style="margin-left:10px ;">
+                        <div class="checkbox">
+                            <label asp-for="RememberMe">
+                                <input asp-for="RememberMe" />
+                                @Html.DisplayNameFor(m => m.RememberMe)
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group row mt-3">
+                        <div class="col-sm-10">
+                            <button type="submit" class="btn btn-secondary w-auto">LogIn</button>
+                        </div>
+                    </div>
+                    <div class="form-group row mt-1">
+                        <a asp-action="ForgetPassword" asp-controller="Account" class="text-primary alert-link" style="text-decoration: none;">Forget Password..? </a>
+                    </div>
+
+            </form>
+            </div>
+        </div>
+        
+        
+        
+
+    </div>
+</div>
+
+@section Scripts{
+<script src="~/Views/Shared/_ValidationScriptsPartial.cshtml"></script>
+}

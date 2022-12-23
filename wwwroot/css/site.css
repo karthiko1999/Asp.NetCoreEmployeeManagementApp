@@ -1,0 +1,55 @@
+html {
+  font-size: 14px;
+}
+body{
+  /* background-image: linear-gradient(to bottom right,#aef5c2,#fac2a6); */
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.btn {
+  width: 75px;
+}
+.btn:hover{
+  background-color: rgba(94, 102, 247, 0.833);
+}
+.dropdown-item:hover{
+  background-color: rgba(91, 219, 247, 0.624);
+  font-size: 1.09rem;
+}
+.footer-firstdiv
+{
+  background-color: rgb(127, 195, 247);
+  color:honeydew;
+  padding:5px 20px ;
+  border-top:1.5px solid black ;
+  border-bottom: 1.5px solid black;
+}
+.Logos-Box
+{
+  background-color: rgba(145, 239, 222, 0.392);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.Box{
+  display: flex;
+  padding-right: 10px;
+}
+.Box P {
+  color: rgb(247, 122, 72);
+}
+

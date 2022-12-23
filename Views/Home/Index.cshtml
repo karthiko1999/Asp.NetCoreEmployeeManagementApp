@@ -1,0 +1,39 @@
+@model IEnumerable<Employee>
+
+@{
+    ViewBag.Title = "Employee List";
+    ViewBag.UseFooter = "Use";
+}
+
+
+<div class="card-deck mt-3 mb-3">
+    <div class="row">
+        @foreach (var employee in Model)
+        {
+            var photoPath = "~/images/" + (employee.PhotoPath ?? "person1.jpg");
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card m-1">
+                    <div class="card-header">
+                        <h3>@employee.Name</h3>
+                    </div>
+                    <div class="card-img-top" style="text-align:center;" style="width:50%;">
+                        <img src="@photoPath" asp-append-version="true" />
+                    </div>
+                    <div class="card-footer text-center">
+                        <form method="post" asp-controller="home" asp-action="delete" asp-route-id="@employee.EncryptedId">
+                            @* Instead of binding the route with employee.Id we need to bind it with EncryptedEmployeeId *@
+                            <a asp-controller="home" asp-action="details" asp-route-id="@employee.EncryptedId"
+                            class="btn btn-primary m-1">View</a>
+                            <a asp-controller="home" asp-action="edit" asp-route-id="@employee.EncryptedId"
+                            class="btn btn-primary m-1">Edit</a>
+
+                            <button class="btn btn-danger m-1" onclick="return confirm('Are you sure want to delete Employee : @employee.Name')">Delete</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+        }
+    </div>
+</div>

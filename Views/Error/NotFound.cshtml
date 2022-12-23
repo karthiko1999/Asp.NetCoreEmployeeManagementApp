@@ -1,0 +1,8 @@
+@{
+    ViewData["Title"] = "404 NotFound : URL doesn't matches Or BadRequest";
+}
+
+<div class="alert alert-warning mt-2 mb-1" role="alert">
+  <h2>@ViewBag.Message</h2>
+  <a asp-controller="home" asp-action="index" class="btn btn-outline-info" style="width: auto;border:1px solid blue;">Click here to navigate to the home page</a>
+</div>

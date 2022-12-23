@@ -1,0 +1,94 @@
+@model CreateEmployeeViewModel;
+@inject IEmployeeRepository employeeRepository;
+
+@{
+    ViewBag.Title = "Create Employee";
+}
+
+<div class="container mt-3">
+
+    @*To support file upload set the form element enctype="multipart/form-data" *@
+    <form method="post" asp-action="create" asp-controller="home" enctype="multipart/form-data">
+
+        <div class="form-group row">
+            @* Lable tag helpers is used to generate for attribute that helped bind with input element. *@
+            <label asp-for="Name" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                @* This input tag helpers is used to bind the HTML input element with model Expression(Property)
+                *@
+                <input asp-for="Name" class="form-control" placeholder="Please Enter Name of Employee"
+                    style="color: rgb(0, 123, 255);">
+
+                @* If the Model Validation fails the we want to display the validation error messeage of this model
+                    property using Asp-Validation-for tag helpers *@
+                <span asp-validation-for="Name" class="text-danger"></span>
+
+            </div>
+        </div>
+
+
+        <div class="form-group row mt-3">
+            <label asp-for="Email" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="Email" class="form-control" placeholder="Please Enter Email"
+                    style="color: rgb(0, 123, 255);">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+        </div>
+
+
+        <div class="form-group row mt-3">
+            <label asp-for="Department" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <div>
+                    @* The Asp-items tag helper binds the select element to Enum *@
+                    <select asp-for="Department" asp-items="Html.GetEnumSelectList<Department>()"
+                        class="custom-select mr-sm-2" style="width:300px;">
+                        @* This is to prompt the user to select any one in option. *@
+                        <option value=" ">Please Select...</option>
+
+                    </select>
+                </div>
+
+                <div>
+                    <span asp-validation-for="Department" class="text-danger">
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group row mt-3">
+            @* asp-for tag helper is set to "Photo" property. "Photo" property type is IFormFile
+                so at runtime asp.net core generates file upload control (input type=file)*@
+            <label asp-for="Photo" class="col-sm-3 col-md-2 col-form-label"></label>
+            <div class="col-md-10">
+                <div class="custom-file">
+                    <input asp-for="Photo" class="form-control custom-file-input">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="form-group row mt-3 text-danger" asp-validation-summary="All"></div>
+
+        <div class="form-group row mt-3">
+            <div class="col-sm-10">
+                <button class="btn btn-primary" type="submit">Create</button>
+            </div>
+        </div>
+
+
+        @*This script is required to display the selected file in the file upload element*@
+        @section Scripts {
+        <script>
+            $(document).ready(function () {
+                $('.custom-file-input').on("change", function () {
+                    var fileName = $(this).val().split("\\").pop();
+                    $(this).next('.custom-file-label').html(fileName);
+                });
+            });
+        </script>
+        }
+
+    </form>
+</div>
